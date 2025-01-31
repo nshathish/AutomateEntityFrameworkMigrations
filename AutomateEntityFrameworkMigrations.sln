@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soln", "Soln", "{DF17408D-2D7F-4E60-B264-1F896A4E252E}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		.github\workflows\cicd.yml = .github\workflows\cicd.yml
 	EndProjectSection
 EndProject
 Global

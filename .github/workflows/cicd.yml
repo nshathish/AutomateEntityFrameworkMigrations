@@ -53,7 +53,7 @@ jobs:
 
             # Deploy the migrations script to Azure SQL
             - name: Deploy migrations script to Azure SQL
-              uses: azure/sql-action@2.3
+              uses: azure/sql-action@v2.3
               with:
                 path: ${{ github.workspace }}/migrations.sql
                 connection-string: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}

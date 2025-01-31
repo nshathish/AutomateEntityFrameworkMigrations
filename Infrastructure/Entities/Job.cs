@@ -1,9 +1,11 @@
-﻿namespace Infrastructure.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Infrastructure.Entities;
 
 public class Job
 {
     public int Id { get; set; }
-    public string JobName { get; set; } = null!;
+    [MaxLength(500)] public string JobName { get; set; } = null!;
 
     public int OrderId { get; set; }
 
