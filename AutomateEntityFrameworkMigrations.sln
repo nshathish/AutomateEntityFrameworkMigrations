@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{9FBA8484-D50F-489D-949E-B3A386E5CFCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{CEA26F50-EA8C-4B2C-85FE-0B22B53087CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soln", "Soln", "{DF17408D-2D7F-4E60-B264-1F896A4E252E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FBA8484-D50F-489D-949E-B3A386E5CFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBA8484-D50F-489D-949E-B3A386E5CFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBA8484-D50F-489D-949E-B3A386E5CFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBA8484-D50F-489D-949E-B3A386E5CFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA26F50-EA8C-4B2C-85FE-0B22B53087CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA26F50-EA8C-4B2C-85FE-0B22B53087CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA26F50-EA8C-4B2C-85FE-0B22B53087CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA26F50-EA8C-4B2C-85FE-0B22B53087CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

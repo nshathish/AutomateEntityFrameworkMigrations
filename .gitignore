@@ -1,0 +1,65 @@
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Configuration
+appsettings.json
+appsettings.*.json
+
+# User-specific files
+.vscode/
+.idea/
+*.sln.ide
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Mac
+*.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.history/
+
+# Local History for JetBrains IDEs
+.idea/
+*.sln.iml
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio 2022
+.vs/
