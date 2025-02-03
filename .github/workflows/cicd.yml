@@ -12,6 +12,9 @@ jobs:
     build_deploy:
         name: Build and Deploy
         runs-on: ubuntu-latest
+        permissions:
+            contents: read            
+            id-token: write
         env:
             BUILD_CONFIGURATION: Release
         steps:
