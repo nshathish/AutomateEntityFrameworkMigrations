@@ -5,9 +5,6 @@ on:
         branches:
         - main
 
-env:
-    BUILD_CONFIGURATION: Release
-
 jobs:
     build_deploy:
         name: Build and Deploy
@@ -45,6 +42,10 @@ jobs:
                 --output ${{ github.workspace}}/migrations.sql
                 --project Infrastructure
                 --startup-project Api
+
+            # Print the contents of the migrations script
+            - name: Print migrations script
+              run: cat ${{ github.workspace }}/migrations.sql
 
             # Login to Azure
             - name: Login to Azure
