@@ -16,5 +16,7 @@ public class JimsDbContext(DbContextOptions<JimsDbContext> options) : DbContext(
                 .HasForeignKey(j => j.OrderId)
                 .OnDelete(DeleteBehavior.Cascade);
         });
+
+        modelBuilder.Entity<Entities.Job>(entity => { entity.Property(j => j.Price).HasPrecision(18, 2); });
     }
 }
